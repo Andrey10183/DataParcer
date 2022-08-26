@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="fcdd2ee5-debd-4e86-8107-506ae446a5c3" ChangeDateTime="08/20/2021 10:32:07">
+    <Property Name="ElementName" Value="[dbo].[ApplicationInstance].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ApplicationInstance]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InstanceID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a7e91f62-7551-4b5a-9dd1-b35330045e9b" ChangeDateTime="08/20/2021 10:35:22">
+    <Property Name="ElementName" Value="[dbo].[ApplicationType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ApplicationType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TypeID" />
+  </Operation>
+</Operations>
